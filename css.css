@@ -1,0 +1,210 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    font-size: 120px;
+    font-weight: 800;
+    text-transform: uppercase;
+    line-height: 120px;
+    margin-bottom: 40px;
+    margin-top: auto;
+
+}
+ul {
+
+    list-style: none;
+    
+}
+h1 span{
+    color: #FBB731;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 38px;
+    display: block;
+    margin-bottom: 10xp;
+    margin-top: 0%;
+}
+.text p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 19px;
+    line-height: 1.4;
+    margin-bottom: 40px;
+}
+a{
+    text-decoration: none;
+}
+.text a,
+.promo-rigt a{
+    background-color: #FBB731;
+    color: #1E2F40;
+    padding: 20px 45px;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+}
+body {
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+.main{
+    background: linear-gradient(180deg, #0C4C7B -100%, #1E2F40 100%);
+}
+.container{
+    max-width: 1188px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+.text{
+    color: #FAF9F9;
+    max-width: 50%;
+    flex: 0 0 590px;
+    padding-top: 170px;
+    padding-bottom: 170px;
+
+}
+.visual img{
+    width: 829px;
+    right: -168px;
+
+    position: absolute;
+    
+}
+.visual{
+    flex-grow: 1;
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+}
+.bg{
+    width: 432px;
+    height: 100%;
+  
+    background: linear-gradient(2.42deg, #F37335 -19.6%, #FBB731 100.79%, #FDC830 100.79%);
+}
+.promo-left,
+.promo-rigt{
+    flex: 0 0 49%;
+    color: white;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+.promo-left{
+    background-image: url(./img/left.png);
+    padding: 115px 50px;
+}
+.promo-rigt{
+    background-image: url(./img/rigt.png);
+    padding: 102px 50px;
+}
+.promo{
+    padding-top: 180px;
+    padding-bottom: 180px;
+}
+.description{
+    color: #FAF9F9;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 15px;
+    line-height: 24px;
+
+}
+.sale{
+    font-size: 14px;
+    font-weight: 900;
+    background: #F37335;
+    padding: 5px 19px;
+    border-radius: 14px;
+    display: inline-block;
+    text-transform: uppercase;
+    margin-bottom: 3px;
+
+}
+.cost{
+    font-size: 60px;
+    font-weight: 900;
+    margin-bottom: 8px;
+}
+.promo-left .description{
+    max-width: 400px;
+}
+.promo-rigt .description{
+    max-width: 300px;
+    margin-bottom: 20px;
+}
+.free{
+    font-size: 44px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.footer{
+   background-color: #1E2F40;
+}
+.logo{
+    width: 100px;
+    height: 100px;
+    margin-top: 10%;
+    border-radius: 45%;
+    padding: 15px;
+    background-color: white;
+}
+.footer .container{
+    justify-content: flex-start;
+}
+.ocnova{
+    margin-left: 70px;
+    line-height: 40px;
+    
+}
+.ocnova h2{
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 800;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: white;
+    margin-top: 10px;
+}
+.ocnova ul{
+    font-family: 'Open Sans', sans-serif; 
+    font-weight: 400;
+    font-size: 15px;
+    color: #DEDEDE;
+}
+
+.ocnova a{
+     color: #DEDEDE;
+}
+.header{
+    height: 100px;
+    width: 100%;
+    background-color: #1E2F40;
+    position: fixed;
+    z-index: 1000;
+    display: flex;
+    
+}
+.logo1{
+    width: 75px;
+    height: 75px;
+    margin-top: 15px;
+    margin-left: 30px;
+    border-radius: 45%;
+}
+.header1{
+    height: 100px;
+}
+.nav{
+    display: flex;
+}
+.nav a{
+    margin-left: 50px;
+    margin-top: 40px;
+    color: white;
+}
